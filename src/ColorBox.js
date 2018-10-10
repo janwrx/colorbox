@@ -11,9 +11,16 @@ class ColorBox extends Component {
   render() {
     let styles = {
       backgroundColor: this.props.colors[this.state.currentIndex],
-      width: 300,
       height: 300,
+      width: 300,
+      fontSize: 50,
       textAlign: 'center',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+
+
+
 
     }
     console.log(this.props.colors);
